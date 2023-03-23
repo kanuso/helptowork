@@ -1,0 +1,8 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div *ngFor="let field of formFields">
+    <label>{{ field.label }}</label>
+    <input [formControlName]="field.name" [type]="field.type" [placeholder]="field.placeholder">
+  </div>
+  <button type="submit">Enviar</button>
+</form>
+

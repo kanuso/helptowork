@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "name": "nombre",
+      "type": "text",
+      "label": "Nombre",
+      "placeholder": "Ingrese su nombre",
+      "required": true
+    },
+    {
+      "name": "correo",
+      "type": "email",
+      "label": "Correo electrónico",
+      "placeholder": "Ingrese su correo electrónico",
+      "required": true
+    }
+  ]
+}
